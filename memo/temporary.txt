@@ -1,0 +1,18 @@
+DDPG 업무 개요
+- DDPG 알고리즘 파악
+  - 관련 개념에 대한 개략적 이해
+    - policy gradient
+    - actor critic 구조
+  - pseudo code 및 전체 알고리즘 이해
+- DDPG 공정 제어 case study (OPTIONAL)
+  - reinforcement learning (DDPG) on process control
+- python DDPG 코드 작성
+  - reference code 찾기 (brute-force 형식의 코드)
+  - 코드 작성
+- 수령한 일주일치 데이터에 실험 적용(시뮬레이션)
+  - 최초 실험
+  - 주요 hyperparameter 및 세팅을 변경하며 실험
+- 상태변수 결정
+  - state 조합을 바꿔가며 실험
+- 환경모델 결정
+  - 현행 선형 모델(PLS)과 비선형모델(e.g. NN) 비교
