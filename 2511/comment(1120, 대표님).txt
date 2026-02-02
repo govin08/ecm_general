@@ -1,0 +1,10 @@
+comment(1120, 대표님)
+
+system identification개념
+- white box model : 수식에 의한 모델
+- gray box model : 중간
+- black box model : NN 등
+
+MPC를 적용할 때 무작정 적용하면 안된다. 동특성을 잘 반영한 형태의 MPC여야 할 것이다.
+
+FIR, IIR

@@ -1,0 +1,25 @@
+최초 작성: 2025-09-05
+최종 수성: 2025-09-05
+
+탐색적 데이터분석:
+- NOx 농도와 상관관계가 높은 인자 분석 (9/4완료, 장표반영 필요)
+- NPR 산출식 계산 및 시각화 (본부장님 comment)
+- 전체 공정을 고려하여 state 목록 선정
+
+서부발전측 문의:
+- 2024년 1월, 7월, 10월에 어떤 사유로 offset을 고쳤는지 문의.
+- 당 시기에 대한 운전일지 (탄 교체 등) 요청
+
+데이터 전처리:
+- seasonal_data를 주별로 잘라서 저장. (9/4완료)
+- 모든 데이터에 대하여 임의로 offset를 변경한 부분을 잘라내는 전처리.
+
+강화학습(서부발전):
+- offline 강화학습 예행 실험 (9/4 완료, 연구노트 작성 완료)
+
+강화학습(일반):
+- BC(Behaivior network)
+  - 물체의 운동에 대한 dynamics 구축 (완료)
+  - 특정한 policy들 (PID, LQR) 생성 및 historical data 생성 (완료)
+  - historical data에서 large-return-oriented data 생성 (완료)
+  - BC 형식의 policy network 구성 (진행중)
